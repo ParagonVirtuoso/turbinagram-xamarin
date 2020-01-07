@@ -1,0 +1,17 @@
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\bin\Debug\netstandard2.0\Turbinagram.deps.json
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\bin\Debug\netstandard2.0\Turbinagram.dll
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\bin\Debug\netstandard2.0\Turbinagram.pdb
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.csprojAssemblyReference.cache
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.Properties.Resources.resources
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.csproj.GenerateResource.cache
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Layouts\Loading.xaml.g.cs
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Layouts\TelaHome.xaml.g.cs
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Layouts\TelaLogin.xaml.g.cs
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.csproj.CoreCompileInputs.cache
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.AssemblyInfoInputs.cache
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.AssemblyInfo.cs
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.dll
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram\obj\Debug\netstandard2.0\Turbinagram.pdb

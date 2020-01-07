@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Turbinagram"
+             x:Class="Turbinagram.MainPage">
+
+    <AbsoluteLayout
+        BackgroundColor="#ffffff">
+        <Image 
+            Source="lturb.png"
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds=".5,.39,.54,.34" />
+        <Frame
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds=".5,-.03,.18,.165"
+            CornerRadius="8"
+            BackgroundColor="#f42b4c"
+            IsClippedToBounds =" True " 
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand" 
+            Padding="8" 
+            OutlineColor="#f42b4c" Margin="0,10,0,0">
+            <Image 
+                Source="ltek.png" 
+                Aspect="AspectFit" />
+        </Frame>
+        <Button
+            x:Name="ConhecerButton"
+            Clicked="ConhecerButtonClick"
+            Text="Conheça nosso plano!"
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds=".5,.72,.54,.065"
+            FontSize="Micro"
+            FontAttributes="Bold"
+            BackgroundColor="White"
+            CornerRadius="5"
+            BorderWidth="2"
+            BorderColor="#f42b4c"/>
+        <Button
+            BackgroundColor="Transparent"
+            Text="Já conhece o plano? faça login" 
+            AbsoluteLayout.LayoutBounds=".5,.78" 
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            FontSize="Micro"
+            x:Name="LogButton"
+            Clicked="LogButtonClick"/>
+        
+        <Label            
+            Text="Todos os direitos foram reservados." 
+            AbsoluteLayout.LayoutBounds=".5,.96" 
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            FontSize="Micro"
+            LineBreakMode="WordWrap"/>
+    </AbsoluteLayout>
+
+</ContentPage>

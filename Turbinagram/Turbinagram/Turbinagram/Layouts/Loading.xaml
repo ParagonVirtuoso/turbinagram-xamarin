@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Turbinagram.Layouts.Loading">
+    <ContentPage.Content>
+        <AbsoluteLayout 
+        BackgroundColor="#f42b4c">
+            <!-- Place new controls here -->
+            <Image 
+                Source="plfun.png"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.32,.4,.3"/>
+            <Label 
+                Text="Aguarde enquanto encontramos as informações sobre seu perfil"
+                TextColor="White"
+                AbsoluteLayout.LayoutBounds=".5,.58"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                FontSize="Medium"
+                LineBreakMode="WordWrap"
+                HorizontalTextAlignment="Center"/>
+            
+            <ActivityIndicator 
+                x:Name="CarregandoPross"
+                AbsoluteLayout.LayoutBounds=".5,.7, 70, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                IsRunning="True"
+                IsEnabled="True"
+                Color="White" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

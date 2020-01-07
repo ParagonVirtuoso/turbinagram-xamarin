@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Turbinagram.Layouts.TelaLogin">
+    <ContentPage.Content>
+
+        <AbsoluteLayout 
+            BackgroundColor="White">
+
+            <Frame
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,-.03,.18,.165"
+                CornerRadius="8"
+                BackgroundColor="#f42b4c"
+                IsClippedToBounds =" True " 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                Padding="0" 
+                OutlineColor="#f42b4c">
+
+                <Image 
+                    Source="ltek.png" 
+                    Aspect="AspectFit" />
+
+            </Frame>
+
+            <Image 
+                Source="lfogturb.png"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.32,.23,.13" />
+            <AbsoluteLayout
+                BackgroundColor="#f42b4c"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.48,.7,.055">
+                <Entry
+                    Keyboard="Text"
+                    BackgroundColor="White"
+                    Placeholder="Usuario do instagram"
+                    PlaceholderColor="#d3cccf"
+                    FontSize="Micro"
+                    AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="1.,1.,.995,1."/>
+            </AbsoluteLayout>
+            <AbsoluteLayout
+                BackgroundColor="#f42b4c"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.57,.7,.055">
+                <Entry
+                    
+                    Keyboard="Text"
+                    BackgroundColor="White"
+                    Placeholder="Senha"
+                    PlaceholderColor="#d3cccf"
+                    FontSize="Micro"
+                    AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="1.,1.,.995,1."/>
+            </AbsoluteLayout>
+            <Button
+                x:Name="EntrarButton"
+                Clicked="EntrarButtonClick"
+                Text="Entrar"
+                TextColor="White"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.65,.54,.061"
+                FontSize="Micro"
+                FontAttributes="Bold"
+                BackgroundColor="#f42b4c"
+                CornerRadius="5"
+                BorderWidth="2"
+                BorderColor="#f42b4c"/>
+            <Button
+                BackgroundColor="Transparent"
+                Text="Esqueceu a senha?" 
+                AbsoluteLayout.LayoutBounds=".69,.705" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                FontSize="Micro"
+                x:Name="EsqcSenhButton"
+                Clicked="EsqcSenhaClick"/>
+            <Button
+                BackgroundColor="Transparent"
+                Text="Informações do plano" 
+                AbsoluteLayout.LayoutBounds=".5,.77" 
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                FontSize="Micro"
+                x:Name="InfoPlanoButton"
+                Clicked="InfoPlanoClick"/>
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

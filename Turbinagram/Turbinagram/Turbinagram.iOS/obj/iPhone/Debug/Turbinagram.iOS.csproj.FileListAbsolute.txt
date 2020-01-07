@@ -1,0 +1,8 @@
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\optimized\
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\Turbinagram.iOS.csprojAssemblyReference.cache
+C:\Users\denys\Dropbox\Turbinagram\Turbinagram\Turbinagram.iOS\obj\iPhone\Debug\Turbinagram.iOS.csproj.CoreCompileInputs.cache

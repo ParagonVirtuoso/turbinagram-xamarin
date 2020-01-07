@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Turbinagram.Layouts.TelaHome">
+    <ContentPage.Content>
+        <AbsoluteLayout 
+            BackgroundColor="#f42b4c">
+            <AbsoluteLayout
+                x:Name="ActionBar"
+                BackgroundColor="#c42842"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.0,1.,.06"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand">
+                <AbsoluteLayout
+                    AbsoluteLayout.LayoutFlags="All"
+                    BackgroundColor="Transparent"
+                    AbsoluteLayout.LayoutBounds="1.,1.,1.,1."
+                    Margin="0" Padding="0" >
+                    <Image                 
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="1.,.5,.25,1."
+                        BackgroundColor="Transparent"
+                        Source="parc2.png" 
+                        Aspect="AspectFit" Margin="2"
+                        />
+                    <Image
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".65,.5,.25,1."
+                        BackgroundColor="Transparent"
+                        Source="sup2.png" 
+                        Aspect="AspectFit" Margin="2"/>
+                   
+
+
+                </AbsoluteLayout>
+                
+                
+            </AbsoluteLayout>
+            
+            <Frame
+                HasShadow="True"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.6,.88,.75"
+                CornerRadius="15"
+                BackgroundColor="White"
+                IsClippedToBounds =" True " 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                Padding="0" InputTransparent="True" IsVisible="True" >
+                
+                <AbsoluteLayout>
+                    
+                    <Label
+                
+                        Text="Seguidores"
+                        TextColor="Black"
+                        FontSize="11"
+                        AbsoluteLayout.LayoutBounds=".5,.06"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        LineBreakMode="WordWrap"
+                        />
+
+                    <Label            
+                        Text="9999" 
+                        AbsoluteLayout.LayoutBounds=".5,.1"
+                        FontAttributes="Bold"
+                        TextColor="Black"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        FontSize="11"
+                        LineBreakMode="WordWrap"/>
+                    
+                    <Label            
+                        Text="Seguindo" 
+                        AbsoluteLayout.LayoutBounds=".8,.06"
+                        TextColor="Black"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        FontSize="11"
+                        LineBreakMode="WordWrap"/>
+                    
+                    <Label            
+                        Text="9999" 
+                        AbsoluteLayout.LayoutBounds=".8,.1"
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        FontSize="11"
+                        LineBreakMode="WordWrap"/>
+
+                </AbsoluteLayout>
+                
+            </Frame>
+            
+            <Frame
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,1.,1.,.615"
+                CornerRadius="0"
+                BackgroundColor="White"
+                IsClippedToBounds =" True " 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                Padding="0" >
+                <AbsoluteLayout>
+                <Label            
+                    Text="Todos os direitos foram reservados."
+                    TextColor="Black"
+                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                    AbsoluteLayout.LayoutBounds=".5,.98" 
+                    FontSize="Micro"
+                    LineBreakMode="WordWrap"/>
+                </AbsoluteLayout>
+
+            </Frame>
+            <Label
+                Text="Olá"
+                TextColor="White"
+                FontSize="17"
+                FontAttributes="Bold"
+                AbsoluteLayout.LayoutBounds=".1,.08"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                LineBreakMode="WordWrap"
+                HorizontalTextAlignment="Start"/>
+            <Label
+                Text="@Usuario_label"
+                TextColor="White"
+                FontSize="14"
+                AbsoluteLayout.LayoutBounds=".1,.11"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                LineBreakMode="WordWrap"
+                HorizontalTextAlignment="Start"/>
+            <Frame
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".1,.2,.18,.1"
+                CornerRadius="125"
+                HasShadow="True"
+                BackgroundColor="White"
+                IsClippedToBounds =" True " 
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                Padding="10"
+                OutlineColor="#f42b4c">
+                <Image 
+                    Source="ltekblack.png" 
+                    Aspect="AspectFit" />
+            </Frame>
+            
+            
+            <Frame
+                x:Name="linhaFuncPerfil"
+                BackgroundColor="#f42b4c"
+                HasShadow="True"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.32,.7,.0005"/>
+
+            <Frame
+                x:Name="BotaoLocaliz"
+                BackgroundColor="LightGray"
+                HasShadow="True"
+
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.41,.88,.12" 
+                Padding="2,1,1,1" 
+                CornerRadius="8" 
+                Margin="1,0">
+                <AbsoluteLayout
+                    
+                    BackgroundColor="Transparent">
+
+
+                    <AbsoluteLayout 
+                        BackgroundColor="Transparent"
+                        AbsoluteLayout.LayoutBounds=".75,.5,.6,1."
+                        AbsoluteLayout.LayoutFlags="All">
+                        <Frame
+                            BackgroundColor="White"
+                            AbsoluteLayout.LayoutBounds=".45,.5,1.3,1."
+                            AbsoluteLayout.LayoutFlags="All"
+                            CornerRadius="8"
+                            Padding="0">
+                            <AbsoluteLayout>
+                                <Label
+                        
+                                    Text="Localizações"
+                                    TextColor="Black"
+                                    FontSize="13"
+                                    AbsoluteLayout.LayoutBounds=".13,.1"
+                                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                                    LineBreakMode="WordWrap"
+                                    HorizontalTextAlignment="Start"/>
+                                
+                                <Label
+                            
+                                    Text="Liste as melhores localizações,aonde você quer focar as atividades no seu perfil"
+                                    TextColor="Black"
+                                    FontSize="8"
+                                    AbsoluteLayout.LayoutBounds=".9,.75,.9,.5"
+                                    AbsoluteLayout.LayoutFlags="All"/>
+                                
+                            </AbsoluteLayout>
+                        </Frame>
+                        
+                    </AbsoluteLayout>
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="0"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".05,.5,.2,1."
+                        >
+                    </Frame>
+
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="8"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c">
+
+                        <Image
+                            Margin="0,0,0,0"
+                            Source="loc.png"
+                            AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".0,.0,.2,.9"
+                        />
+                    </Frame>
+                </AbsoluteLayout>
+            </Frame>
+
+            <Frame
+                x:Name="BotaoHash"
+                BackgroundColor="LightGray"
+                HasShadow="True"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.58,.88,.12" 
+                Padding="2,1,1,1" 
+                CornerRadius="8" 
+                Margin="1,0">
+                <AbsoluteLayout
+                    
+                    BackgroundColor="Transparent">
+
+
+                    <AbsoluteLayout 
+                        BackgroundColor="Transparent"
+                        AbsoluteLayout.LayoutBounds=".75,.5,.6,1."
+                        AbsoluteLayout.LayoutFlags="All">
+                        <Frame
+                            BackgroundColor="White"
+                            AbsoluteLayout.LayoutBounds=".45,.5,1.3,1."
+                            AbsoluteLayout.LayoutFlags="All"
+                            CornerRadius="8"
+                            Padding="0">
+                            <AbsoluteLayout>
+                                <Label
+                        
+                                    Text="#Hashtag"
+                                    TextColor="Black"
+                                    FontSize="13"
+                                    AbsoluteLayout.LayoutBounds=".13,.1"
+                                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                                    LineBreakMode="WordWrap"
+                                    HorizontalTextAlignment="Start"/>
+
+                                <Label
+                            
+                                    Text="Pense nas melhores hastag, isso sera de muita importancia pois irar te mostrar para que não te conhece;"
+                                    TextColor="Black"
+                                    FontSize="8"
+                                    AbsoluteLayout.LayoutBounds=".9,.75,.9,.5"
+                                    AbsoluteLayout.LayoutFlags="All"/>
+
+                            </AbsoluteLayout>
+                        </Frame>
+                        
+                    </AbsoluteLayout>
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="0"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".05,.5,.2,1."
+                        >
+                    </Frame>
+
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="8"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c">
+
+                        <Image
+                            Margin="0,0,0,0"
+                            Source="hash.png"
+                            AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".0,.0,.2,.9"
+                        />
+                    </Frame>
+                </AbsoluteLayout>
+            </Frame>
+
+            <Frame
+                x:Name="BotaoPerfis"
+                BackgroundColor="LightGray"
+                HasShadow="True"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.75,.88,.12" 
+                Padding="2,1,1,1" 
+                CornerRadius="8" 
+                Margin="1,0">
+                <AbsoluteLayout
+                    
+                    BackgroundColor="Transparent">
+
+
+                    <AbsoluteLayout 
+                        BackgroundColor="Transparent"
+                        AbsoluteLayout.LayoutBounds=".75,.5,.6,1."
+                        AbsoluteLayout.LayoutFlags="All">
+                        <Frame
+                            BackgroundColor="White"
+                            AbsoluteLayout.LayoutBounds=".45,.5,1.3,1."
+                            AbsoluteLayout.LayoutFlags="All"
+                            CornerRadius="8"
+                            Padding="0">
+                            <AbsoluteLayout>
+                                <Label
+                        
+                                    Text="Perfis"
+                                    TextColor="Black"
+                                    FontSize="13"
+                                    AbsoluteLayout.LayoutBounds=".13,.1"
+                                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                                    LineBreakMode="WordWrap"
+                                    HorizontalTextAlignment="Start"/>
+
+                                <Label
+                            
+                                    Text="Perfis de concorrentes, marcas que trabalham com você por que o publico que vai até eles pode vim até você;"
+                                    TextColor="Black"
+                                    FontSize="8"
+                                    AbsoluteLayout.LayoutBounds=".9,.75,.9,.5"
+                                    AbsoluteLayout.LayoutFlags="All"/>
+
+                            </AbsoluteLayout>
+                        </Frame>
+                       
+                    </AbsoluteLayout>
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="0"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".05,.5,.2,1."
+                        >
+                    </Frame>
+
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="8"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c">
+
+                        <Image
+                            Margin="0,0,0,0"
+                            Source="perfil.png"
+                            AbsoluteLayout.LayoutFlags="All"
+                            AbsoluteLayout.LayoutBounds=".0,.0,.2,.9"
+                        />
+                    </Frame>
+                </AbsoluteLayout>
+            </Frame>
+
+            <Frame
+                x:Name="BotaoAgendam"
+                BackgroundColor="LightGray"
+                HasShadow="True"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds=".5,.92,.88,.12" 
+                Padding="2,1,1,1" 
+                CornerRadius="8" 
+                Margin="1,0">
+                <AbsoluteLayout
+                    
+                    BackgroundColor="Transparent">
+
+
+                    <AbsoluteLayout 
+                        BackgroundColor="Transparent"
+                        AbsoluteLayout.LayoutBounds=".75,.5,.6,1."
+                        AbsoluteLayout.LayoutFlags="All">
+                        <Frame
+                            BackgroundColor="White"
+                            AbsoluteLayout.LayoutBounds=".45,.5,1.3,1."
+                            AbsoluteLayout.LayoutFlags="All"
+                            CornerRadius="8"
+                            Padding="0">
+                            <AbsoluteLayout>
+                                <Label
+                        
+                                    Text="Agendamento"
+                                    TextColor="Black"
+                                    FontSize="13"
+                                    AbsoluteLayout.LayoutBounds=".13,.1"
+                                    AbsoluteLayout.LayoutFlags="PositionProportional"
+                                    LineBreakMode="WordWrap"
+                                    HorizontalTextAlignment="Start"/>
+
+                                <Label
+                            
+                                    Text="Caso tenha materiais que queria, agendar o uma publicação envia para a gente, e realizações isso;"
+                                    TextColor="Black"
+                                    FontSize="8"
+                                    AbsoluteLayout.LayoutBounds=".9,.75,.9,.5"
+                                    AbsoluteLayout.LayoutFlags="All"/>
+
+                            </AbsoluteLayout>
+                            
+                        </Frame>
+                        
+                    </AbsoluteLayout>
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="0"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".05,.5,.2,1."
+                        >
+                    </Frame>
+
+                    <Frame 
+                        Margin="0,0,0,0"
+                        CornerRadius="8"
+                        Padding="10" 
+                        BackgroundColor="#f42b4c">
+
+                        <Image
+                            Margin="0,0,0,0"
+                            Source="agend5.png"
+                            AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds=".0,.0,.2,.9"
+                        />
+                    </Frame>
+                </AbsoluteLayout>
+            </Frame>
+
+            
+
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

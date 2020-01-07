@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram.Android\\Turbinagram.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram.Android\\Turbinagram.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram.Android\\Turbinagram.Android.csproj",
+        "projectName": "Turbinagram.Android",
+        "projectPath": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram.Android\\Turbinagram.Android.csproj",
+        "packagesPath": "C:\\Users\\denys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\denys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram\\Turbinagram.csproj": {
+                "projectPath": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram\\Turbinagram.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "InstaSharper": {
+              "target": "Package",
+              "version": "[1.4.82, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram\\Turbinagram.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram\\Turbinagram.csproj",
+        "projectName": "Turbinagram",
+        "projectPath": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram\\Turbinagram.csproj",
+        "packagesPath": "C:\\Users\\denys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denys\\Dropbox\\Turbinagram\\Turbinagram\\Turbinagram\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\denys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "InstaSharper": {
+              "target": "Package",
+              "version": "[1.4.82, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.0.0.425677, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
